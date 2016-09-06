@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bluetooth LED Matrix</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_stop">Stop</string>
+    <string name="connection_status">Status: %1$s</string>
+    <string name="scan">Scan</string>
+    <string name="stop_scan">Stop scanning</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="title_activity_led_control">LED Control</string>
+    <string name="scan_again">Scan again</string>
+    <string name="info">Info</string>
+    <string name="title_activity_info">Info</string>
+
+    <string-array name="colors">
+        <item>Off</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </string-array>
+
+</resources>
