@@ -53,8 +53,8 @@ public class LedMatrix {
 
         data[row][half] = (byte) temp_byte;
 
-        Log.d(TAG, "Old: Col " + col + " Color " + color + ": " + String.format("%16s", Integer.toBinaryString(original[0])).replace(' ', '0') + " " + String.format("%8s", Integer.toBinaryString(original[1])).replace(' ', '0'));
-        Log.d(TAG, "New: Col " + col + " Color " + color + ": " + String.format("%16s", Integer.toBinaryString(data[row][0])).replace(' ', '0') + " " + String.format("%8s", Integer.toBinaryString(data[row][1])).replace(' ', '0'));
+        Log.d(TAG, "Old: Col " + col + " Color " + color + ": " + String.format("%8s", Integer.toBinaryString(original[0])).replace(' ', '0') + " " + String.format("%8s", Integer.toBinaryString(original[1])).replace(' ', '0'));
+        Log.d(TAG, "New: Col " + col + " Color " + color + ": " + String.format("%8s", Integer.toBinaryString(data[row][0])).replace(' ', '0') + " " + String.format("%8s", Integer.toBinaryString(data[row][1])).replace(' ', '0'));
 
         return data[row].clone();
     }
